@@ -13,8 +13,7 @@
 <div id="choropleth_map"></div>
 
 <script>
-
-  const spec = "../sustainable_energy_map.vg.json";
+  var spec = "../sustainable_energy_map.vg.json";
   vegaEmbed("#choropleth_map", spec, {mode: "vega-lite"}).then(console.log).catch(console.warn);
 </script>
 
